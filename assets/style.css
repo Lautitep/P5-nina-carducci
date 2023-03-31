@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+  height: 20px;
 }
 
 #about {
@@ -65,7 +66,8 @@ body {
 	z-index: 0;
 }
 .picture img {
-	width: 100%;
+	width: 410px;
+  height: 410px;
 }
 #about-me {
 	flex: 2
