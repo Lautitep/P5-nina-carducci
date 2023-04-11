@@ -19,12 +19,37 @@
     {
       "@context": "https://schema.org/",
       "@type": "Person",
-      "name": "Nina Carducci",
+      "name": "Nina Carducci Photographer",
+      "image": [
+        "./assets/images/nina.webp",
+       ],
       "jobTitle": "Photographer",
       "url": "https://nina-carducci.github.io/",
       "sameAs": [
         "https://www.instagram.com/ninacarducci.photo/"
-      ]
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "68 avenue Alsace Lorraine",
+        "addressLocality": "Bordeaux",
+        "postalCode": "33200",
+        "addressCountry": "FR"
+      },
+      "telephone": "+33556677889",
+      "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "19:00"
+      }
+    ],
     }
   </script>
 </head>
@@ -168,21 +193,6 @@
 			<img src="./assets/images/camera.webp" alt="camera">
 		</div>
 	</div>
-  <div itemscope itemtype="http://schema.org/Organization">
-    <span>Mes coordonnées</span>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-      <span itemprop="streetAddress">68 avenue Alsace Lorraine</span>,
-      <span itemprop="postalCode">33200</span>
-      <span itemprop="addressLocality">BORDEAUX</span>
-    </div>
-    <span itemprop="telephone">05.56.67.78.89</span>
-    <div itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
-      <meta itemprop="dayOfWeek" content="Monday-Friday">
-      <meta itemprop="opens" content="10:00">
-      <meta itemprop="closes" content="19:00">
-      <span>Du lundi au vendredi de 10h à 19h</span>
-    </div>
-  </div>
 </div>
 </body>
 </html>
